@@ -1,0 +1,44 @@
+# Symfony default ignores
+/var/
+/vendor/
+/.env
+.env.local
+.env.test
+.env.*.local
+/.phpunit.result.cache
+/phpunit.xml
+/.phpunit.cache
+/public/bundles/
+/node_modules/
+/public/build/
+/public/hot/
+/public/storage/
+/storage/*.key
+/storage/pail
+
+# IDE and tool-specific
+/.idea/
+/.vscode/
+/.fleet/
+/.phpactor.json
+/.nova/
+/.zed/
+.DS_Store
+
+# Scribe documentation
+/.scribe
+/resources/views/scribe
+
+# Laravel or Filament-style folders (optional, remove if not relevant)
+/public/vendor/
+/public/css/filament/
+/public/js/filament/
+
+# Others
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+.env.backup
+.env.production
