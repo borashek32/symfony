@@ -1,0 +1,12 @@
+{% extends 'layouts/main.html.twig' %}
+
+{% block title %}{{ parent() }}Main{% endblock %}
+
+{% block body %}
+    <h1>hello symfony</h1>
+    {% if (value >= 56) %}
+        <div>{{ value }}</div>
+    {% else %}
+        <div>{{ value * 10 }}</div>
+    {% endif %}
+{% endblock %}

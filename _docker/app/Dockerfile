@@ -1,4 +1,4 @@
-FROM php:8.4-fpm
+FROM php:8.2-fpm
 
 # Установка системных зависимостей
 RUN apt-get update && \
