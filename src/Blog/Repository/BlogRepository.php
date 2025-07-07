@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Repository;
+namespace App\Blog\Repository;
 
-use App\Entity\Blog;
+use App\Blog\Entity\Blog;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
