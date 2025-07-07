@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Entity;
+namespace App\Blog\Entity;
 
-use App\Repository\BlogRepository;
+use App\Blog\Repository\BlogRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: BlogRepository::class)]

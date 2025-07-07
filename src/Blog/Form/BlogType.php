@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Form;
+namespace App\Blog\Form;
 
-use App\Entity\Blog;
+use App\Blog\Entity\Blog;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
